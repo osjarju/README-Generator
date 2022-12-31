@@ -1,7 +1,7 @@
-# asda
+# README Generator
 
-  ## License: ${license} 
-  ### 
+  ## License: ${license} ![License:](https://img.shields.io/badge/License--blue.svg)
+  ### https://choosealicense.com/licenses/mit/
 
   ## Table of Contents:
   ### * [Liccense](#license)
@@ -13,13 +13,13 @@
 
   ## Installation:
   ### You must install the following for this app to function:
-  ### asd
+  ### Follow guidelines
 
   ## Usage:
-  ### asd
+  ### The ability to create a professional README
 
   ## Contributors:
-  ### asd
+  ### Respect and credit
 
   ## Tests:
   ### Run the following commands in your terminal to test this app:
@@ -27,6 +27,6 @@
 
   ## Questions:
   ### For questions, please contact me on
-  ### Github: https://github.com/asd
+  ### Github: https://github.com/osjarju
   ### or
-  ### Email: asd
+  ### Email: osjarju@gmail.com

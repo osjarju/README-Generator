@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
 
   if (!license) {
-    return 'No license'
+    return ' '
   }
   return `![License:](https://img.shields.io/badge/License--blue.svg)`
 }
@@ -45,32 +45,31 @@ function generateMarkdown(data) {
   ### ${renderLicenseLink(data.license)}
 
   ## Table of Contents:
-  ### * [Liccense](#license)
-  ### * [Installation](#installation)
-  ### * [Usage](#usage)
-  ### * [Contributors](#contributors)
-  ### * [Tests](#tests)
-  ### * [Questions](#questions)
+  - [License](#license)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributors](#contributors)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation:
-  ### You must install the following for this app to function:
-  ### ${data.installation}
+  You must install all the necessary dependencies for this app to function optimally:
+  \`\`\`${data.installation}\`\`\`
 
   ## Usage:
-  ### ${data.usage}
+  ${data.usage}
 
   ## Contributors:
-  ### ${data.contributions}
+  ${data.contributions}
 
   ## Tests:
-  ### Run the following commands in your terminal to test this app:
-  ### ${data.tests}
+  Run the following commands in your terminal to test this app:
+  \`\`\`${data.tests}\`\`\`
 
   ## Questions:
-  ### For questions, please contact me on
-  ### Github: https://github.com/${data.askMe}
-  ### or
-  ### Email: ${data.email}
+  For questions, please contact me on [Github](https://
+  github.com/${data.askMe}) or
+  Email: ${data.email}
 `;
 }
 
