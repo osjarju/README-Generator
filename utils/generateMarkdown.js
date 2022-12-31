@@ -1,21 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-const fs = require('fs');
-const inquirer = require('inquirer');
-const index = require('../index.js');
-
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  let badge = '';
-  if (license === 'MIT') {
-    badge = '![Github license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)'
-  } else if (license === 'Apache 2.0') {
-    badge = '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
-  } else if (license === 'GPL v3.0') {
-    badge = '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)'
-  } else {
-    badge = ''
+
+  if (!license) {
+    return 'No license'
   }
-  return badge;
+  return `![License:](https://img.shields.io/badge/License--blue.svg)`
 }
 
 // TODO: Create a function that returns the license link
