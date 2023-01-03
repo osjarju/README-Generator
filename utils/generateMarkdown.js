@@ -3,11 +3,15 @@
 
 function renderLicenseBadge(license) {
   if (license === 'No license') {
-    return license = ''
-  } else {
-    license = 'License: ${license}'
+    license = `![License:](https://img.shields.io/badge/License--blue.svg)`
+  } else if (license === 'MIT') {
+    license = '![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)'
+  } else if (license === 'Apache 2.0') {
+    license = '![License:](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
+  } else if (license === 'GPL v3.0') {
+    license = '![License: GPL v3](https://img.shields.io/badge/GPLv3-blue.svg)'
   }
-  return `![License:](https://img.shields.io/badge/License--blue.svg)`
+  return license;
 }
 
 // TODO: Create a function that returns the license link
@@ -31,9 +35,9 @@ function renderLicenseLink(license) {
 
 function renderLicenseSection(license) {
   if (license === 'No license') {
-    licenseSection = ''
+    licenseSection = license
   } else {
-    licenseSection = 'License: ${license}'
+    licenseSection = 'License: '
   }
   return licenseSection;
 }
@@ -55,23 +59,24 @@ function generateMarkdown(data) {
   - [Questions](#questions)
 
   ## Installation:
-  You must install all the necessary dependencies for this app to function optimally:
+  You must install all the necessary dependencies for this app to function optimally:  
   \`\`\`${data.installation}\`\`\`
 
-  ## Usage:
+  ## Usage:  
   ${data.usage}
 
-  ## Contributors:
-  ${data.contributions}
+  ## Contributing:  
+  ${data.contributing}
 
   ## Tests:
-  Run the following commands in your terminal to test this app:
+  Run the following commands in your terminal to test this app:  
   \`\`\`${data.tests}\`\`\`
 
   ## Questions:
-  For questions, please contact me on [Github](https://
-  github.com/${data.username}) or
-  Email: ${data.email}
+  For questions, please contact me on [Github](https://github.com/${data.username})  
+  or  
+  Email: 
+  ${data.email}
 `;
 }
 

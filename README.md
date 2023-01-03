@@ -1,7 +1,7 @@
-# apple
+# STREAM
  
-  ## License: ${license} ![License:](https://img.shields.io/badge/License--blue.svg)
-  ### https://choosealicense.com/licenses/mit/
+  ## No license ![License:](https://img.shields.io/badge/License--blue.svg)
+  ### 
 
   ## Table of Contents:
   - [License](#license)
@@ -12,20 +12,21 @@
   - [Questions](#questions)
 
   ## Installation:
-  You must install all the necessary dependencies for this app to function optimally:
-  ```none```
+  You must install all the necessary dependencies for this app to function optimally:  
+  ```Light```
 
-  ## Usage:
-  none
+  ## Usage:  
+  Gear
 
-  ## Contributors:
-  none
+  ## Contributing:  
+  Plan
 
   ## Tests:
-  Run the following commands in your terminal to test this app:
-  ```undefined```
+  Run the following commands in your terminal to test this app:  
+  ```Fan```
 
   ## Questions:
-  For questions, please contact me on [Github](https://
-  github.com/none) or
-  Email: none
+  For questions, please contact me on [Github](https://github.com/osjarju)  
+  or  
+  Email: 
+  osjarju@gmail.com
