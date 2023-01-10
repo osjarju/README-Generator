@@ -31,5 +31,7 @@ https://drive.google.com/file/d/1HQ15tiHUb67dsINJh7qIe54tBEKHjRVb/view
   For questions, please contact me on [Github](https://github.com/osjarju)  
   or  
   Email: 
-  osjarju@gmail.com<img width="660" alt="README_screenshot_1" src="https://user-images.githubusercontent.com/115750838/211481125-0e02829a-804f-40a8-a01c-1c93ad2bea59.png">
+  osjarju@gmail.com
+  
+  <img width="660" alt="README_screenshot_1" src="https://user-images.githubusercontent.com/115750838/211481125-0e02829a-804f-40a8-a01c-1c93ad2bea59.png">
 
