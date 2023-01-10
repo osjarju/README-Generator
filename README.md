@@ -34,5 +34,5 @@ https://drive.google.com/file/d/1HQ15tiHUb67dsINJh7qIe54tBEKHjRVb/view
   osjarju@gmail.com
 
 Screenshot Below:
-  <img width="660" alt="README_screenshot_1" src="https://user-images.githubusercontent.com/115750838/211481125-0e02829a-804f-40a8-a01c-1c93ad2bea59.png">
+<img width="660" alt="README_screenshot_1" src="https://user-images.githubusercontent.com/115750838/211481125-0e02829a-804f-40a8-a01c-1c93ad2bea59.png">
 
